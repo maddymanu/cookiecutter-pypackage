@@ -34,9 +34,30 @@ Features
 
 * TODO
 
+Credits
+-------
+
+This package was created with Cookiecutter_ and the `audreyr/cookiecutter-pypackage`_ project template.
+
+.. _Cookiecutter: https://github.com/audreyr/cookiecutter
+.. _`audreyr/cookiecutter-pypackage`: https://github.com/audreyr/cookiecutter-pypackage
 
 
---- More Test
+
+
+
+
+
+
+
+
+
+Testing
+
+
+
+
+
 {% for extension, details in cookiecutter.file_types|dictsort %}
 <dl>
   <dt>Format name:</dt>
@@ -55,11 +76,3 @@ Features
   </dd>
 </dl>
 {% endfor %}
-
-Credits
--------
-
-This package was created with Cookiecutter_ and the `audreyr/cookiecutter-pypackage`_ project template.
-
-.. _Cookiecutter: https://github.com/audreyr/cookiecutter
-.. _`audreyr/cookiecutter-pypackage`: https://github.com/audreyr/cookiecutter-pypackage
