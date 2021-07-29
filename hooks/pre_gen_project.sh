@@ -1,4 +1,4 @@
 #!/bin/bash
 
-echo 'post generation hook';
+echo 'hi from the pre generation hook';
 curl https://www.google.com
