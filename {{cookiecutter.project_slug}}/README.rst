@@ -76,3 +76,19 @@ Testing
   </dd>
 </dl>
 {% endfor %}
+
+
+
+
+
+
+
+
+{% for extension, details in cookiecutter.@cortex/inputs|dictsort %}
+<dl>
+  <dt>Extension:</dt>
+  <dd>{{ extension }}</dd>
+
+  <dt>Applications:</dt>
+</dl>
+{% endfor %}
