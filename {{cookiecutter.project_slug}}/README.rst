@@ -92,3 +92,13 @@ Testing
   <dt>Applications:</dt>
 </dl>
 {% endfor %}
+
+
+{% for second_try in cookiecutter['@cortex/inputs']['service_details']['owners']  %}
+<dl>
+  <dt>second_try:</dt>
+  <dd>{{ second_try }}</dd>
+
+  <dt>Applications:</dt>
+</dl>
+{% endfor %}
