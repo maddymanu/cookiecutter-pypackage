@@ -84,7 +84,7 @@ Testing
 
 
 
-{% for extension, details in cookiecutter.@cortex/inputs|dictsort %}
+{% for extension, details in {{ cookiecutter.@cortex/inputs }}|dictsort %}
 <dl>
   <dt>Extension:</dt>
   <dd>{{ extension }}</dd>
