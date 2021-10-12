@@ -58,9 +58,23 @@ Features
 
 Dictionary Testing:
 Service Name is: {{cookiecutter['@cortex/inputs']['service_details']['name']}}
-Service Tag is: {{cookiecutter['@cortex/inputs']['service_details']['name']}}
-Service Description is: {{cookiecutter['@cortex/inputs']['service_details']['name']}}
 
+Service Tag is: {{cookiecutter['@cortex/inputs']['service_details']['tag']}}
+
+Service Description is: {{cookiecutter['@cortex/inputs']['service_details']['description']}}
+
+Service Git Repo is: {{cookiecutter['@cortex/inputs']['git']['repository']}}
+
+Service Groups are:
+{% for service_group in cookiecutter['@cortex/inputs']['service_details']['serviceGroups']  %}
+  {{ service_group }}
+{% endfor %}
+
+
+Service owners are:
+{% for owner in cookiecutter['@cortex/inputs']['service_details']['owners']  %}
+  Type: {{ owner['type'] }}
+{% endfor %}
 
 Credits
 -------
