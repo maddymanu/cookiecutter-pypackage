@@ -33,7 +33,7 @@ Features
 --------
 
 
-{% for extension, details in cookiecutter['@cortex/inputs'] |dictsort %}
+{% for extension, details in cookiecutter['@cortex_inputs'] |dictsort %}
 <dl>
   <dt>Extension:</dt>
   <dd>{{ extension }}</dd>
@@ -43,7 +43,7 @@ Features
 {% endfor %}
 
 
-{% for second_try in cookiecutter['@cortex/inputs']['service_details']['owners']  %}
+{% for second_try in cookiecutter['@cortex_inputs']['service_details']['owners']  %}
 <dl>
   <dt>second_try:</dt>
   <dd>{{ second_try }}</dd>
@@ -57,22 +57,22 @@ Features
 
 
 Dictionary Testing:
-Service Name is: {{cookiecutter['@cortex/inputs']['service_details']['name']}}
+Service Name is: {{cookiecutter['@cortex_inputs']['service_details']['name']}}
 
-Service Tag is: {{cookiecutter['@cortex/inputs']['service_details']['tag']}}
+Service Tag is: {{cookiecutter['@cortex_inputs']['service_details']['tag']}}
 
-Service Description is: {{cookiecutter['@cortex/inputs']['service_details']['description']}}
+Service Description is: {{cookiecutter['@cortex_inputs']['service_details']['description']}}
 
-Service Git Repo is: {{cookiecutter['@cortex/inputs']['git']['repository']}}
+Service Git Repo is: {{cookiecutter['@cortex_inputs']['git']['repository']}}
 
 Service Groups are:
-{% for service_group in cookiecutter['@cortex/inputs']['service_details']['serviceGroups']  %}
+{% for service_group in cookiecutter['@cortex_inputs']['service_details']['serviceGroups']  %}
   {{ service_group }}
 {% endfor %}
 
 
 Service owners are:
-{% for owner in cookiecutter['@cortex/inputs']['service_details']['owners']  %}
+{% for owner in cookiecutter['@cortex_inputs']['service_details']['owners']  %}
   Type: {{ owner['type'] }}
 {% endfor %}
 
