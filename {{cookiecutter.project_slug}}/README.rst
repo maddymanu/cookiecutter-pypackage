@@ -54,6 +54,14 @@ Features
 
 * TODO
 
+
+
+Dictionary Testing:
+Service Name is: {{cookiecutter['@cortex/inputs']['service_details']['name']}}
+Service Tag is: {{cookiecutter['@cortex/inputs']['service_details']['name']}}
+Service Description is: {{cookiecutter['@cortex/inputs']['service_details']['name']}}
+
+
 Credits
 -------
 
