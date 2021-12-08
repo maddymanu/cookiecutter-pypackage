@@ -30,7 +30,7 @@
         }
    },  
   "@cortex/hidden_keys": ["file_types"],  
-    "version": null,
+    "version": "0.1.0",
 "_extensions": ["cookiecutter.extensions.SlugifyExtension","jinja2_time.TimeExtension"],
 "_copy_without_render": [
     "helm/templates"
