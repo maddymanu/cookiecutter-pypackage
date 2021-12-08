@@ -29,7 +29,7 @@
             ]
         }
    },  
-  "@cortex/hidden_keys": ["file_types"],  
+  "@cortex/hidden_keys": ["file_types" , "_copy_without_render"],  
     "version": "0.1.0",
 "_extensions": ["cookiecutter.extensions.SlugifyExtension","jinja2_time.TimeExtension"],
 "_copy_without_render": [
