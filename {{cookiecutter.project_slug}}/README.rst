@@ -1,5 +1,6 @@
 Testing Extension Slugify: {{ "It's a random version" | slugify }}
-
+Testing time extension: "{% now 'utc' %}"
+"{% now 'utc', '%a, %d %b %Y %H:%M:%S' %}"
 
 {% set is_open_source = cookiecutter.open_source_license != 'Not open source' -%}
 {% for _ in cookiecutter.project_name %}={% endfor %}
