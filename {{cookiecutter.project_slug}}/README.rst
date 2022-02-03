@@ -49,38 +49,12 @@ Features
 {% endfor %}
 
 
-{% for second_try in cookiecutter['@cortex_inputs']['service_details']['owners']  %}
-<dl>
-  <dt>second_try:</dt>
-  <dd>{{ second_try }}</dd>
-
-  <dt>Applications:</dt>
-</dl>
-{% endfor %}
 
 * TODO
 
 
 
 Dictionary Testing:
-Service Groups are:
-{% for service_group in cookiecutter['@cortex_inputs']['service_details']['serviceGroups']  %}
-  {{ service_group }}
-{% endfor %}
-
-
-Service owners are:
-{% for owner in cookiecutter['@cortex_inputs']['service_details']['owners']  %}
-  Type: {{ owner['type'] }}
-{% endfor %}
-
-Credits
--------
-
-This package was created with Cookiecutter_ and the `audreyr/cookiecutter-pypackage`_ project template.
-
-.. _Cookiecutter: https://github.com/audreyr/cookiecutter
-.. _`audreyr/cookiecutter-pypackage`: https://github.com/audreyr/cookiecutter-pypackage
 
 
 
