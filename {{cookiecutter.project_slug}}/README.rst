@@ -7,6 +7,7 @@ Testing time extension: "{% now 'utc' %}"
 {{ cookiecutter.project_name }}
 
 description is {{ cookiecutter.description }}
+project name 2 is {{ cookiecutter.project_name_2 }}
 {% for _ in cookiecutter.project_name %}={% endfor %}
 
 {% if is_open_source %}
