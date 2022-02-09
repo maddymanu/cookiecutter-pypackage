@@ -6,6 +6,7 @@ Testing time extension: "{% now 'utc' %}"
 {% for _ in cookiecutter.project_name %}={% endfor %}
 {{ cookiecutter.project_name }}
 
+Seconder "{{ cookiecutter['@cortex_inputs']['service_details']['name'] }}"
 description is {{ cookiecutter.description }}
 project name 2 is {{ cookiecutter.project_name_2 }}
 {% for _ in cookiecutter.project_name %}={% endfor %}
