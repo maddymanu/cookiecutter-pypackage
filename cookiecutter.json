@@ -4,7 +4,7 @@
   "github_username": "audreyr",
   "description": "Service for {{cookiecutter.github_username }}",
   "project_name": "Python Boilerplate",
-  "project_name_2": "adii 2",
+  "project_name_2": "{{ cookiecutter["@cortex_inputs"]['service_details']['name'] }}",
   "project_slug": "{{ cookiecutter.project_name.lower().replace(' ', '_').replace('-', '_') }}",
   "project_short_description": "Python Boilerplate contains all the boilerplate you need to create a Python package.",
   "pypi_username": "{{ cookiecutter.github_username }}",
