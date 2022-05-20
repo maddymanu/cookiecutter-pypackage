@@ -1,6 +1,6 @@
 {
   "full_name": "Albert Einstein",
-  "email": "audreyr@example.com",
+  "email": "albert@example.com",
   "github_username": "audreyr",
   "description": "Service for {{cookiecutter.github_username }}",
   "project_name": "Python Boilerplate",
