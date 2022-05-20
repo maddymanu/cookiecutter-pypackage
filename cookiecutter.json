@@ -1,5 +1,5 @@
 {
-  "full_name": "Audrey Roy Greenfeld",
+  "full_name": "Albert Einstein",
   "email": "audreyr@example.com",
   "github_username": "audreyr",
   "description": "Service for {{cookiecutter.github_username }}",
@@ -39,7 +39,7 @@
   "open_source_license": ["MIT license", "BSD license", "ISC license", "Apache Software License 2.0", "GNU General Public License v3", "Not open source"],
     "_cortex_field_configurations": {
         "full_name": {
-          "description": "The author's full name. SHOULD HAVE DEFAUlA",
+          "description": "The author's full name.",
           "use_default": true
         },
         "create_author_file": {
