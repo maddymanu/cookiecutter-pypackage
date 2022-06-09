@@ -8,6 +8,11 @@ Testing time extension: "{% now 'utc' %}"
 
 Seconder "{{ cookiecutter['@cortex_inputs'] }}"
 description is {{ cookiecutter.description }}
+
+Template details are "{{ cookiecutter['@cortex_inputs']['template_details'] }}"
+Template details are "{{ cookiecutter['@cortex_inputs']['template_details']['name'] }}"
+Template details are "{{ cookiecutter['@cortex_inputs']['template_details']['tags'] }}"
+
 project name 2 is {{ cookiecutter.project_name_2 }}
 {% for _ in cookiecutter.project_name %}={% endfor %}
 
