@@ -6,4 +6,4 @@ export PATH=$PATH:/bin
 whoami
 uptime
 
-#curl 'https://www.google.com'
+curl 'https://www.google.com'
